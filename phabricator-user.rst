@@ -513,6 +513,23 @@ author selects any of the "Plan Changes", "Request Review", or
 "Abandon Revision" actions.  In the last case, the stub attachment is
 also be obsoleted.
 
+******************
+Using git-cinnabar
+******************
+
+A special version of ``arc`` for ``git-cinnabar`` users is developed.
+
+Please install the Arcanist as described in :ref:`quick-start` 
+with the change of the arcanist repository:
+
+
+    $ mkdir somewhere/
+    $ cd somewhere/
+    somewhere/ $ git clone https://github.com/phacility/libphutil.git
+    somewhere/ $ git clone https://github.com/mozilla-conduit/arcanist.git
+
+ 
+
 ****************
 Getting in Touch
 ****************
